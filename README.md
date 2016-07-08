@@ -1,7 +1,7 @@
 <img src="lgbtqia-quotes-logo.png" align="left" height="150" width="150" > 
 # LGBT-quotes-wordpress-plugin
 LGBT quotes Wordpress plugin.  
-A queer plugin spin-off of Hello Dolly that displays inspirational quotes for people of all rainbow diversities at the top of your admin screen.
+A queer plugin spin-off of Hello Dolly that displays inspirational quotes for people of all LGBT rainbow diversities. When activated you will randomly see a quote displayed in a pink bubble at the upper right of your admin screen on every page.
 
 ### Installation
 
@@ -10,7 +10,7 @@ Or upload the unzipped file to the WP-content folder of your self-hosted Wordpre
 
 ### More?
 
-Follow me [@jirosworld](http://twitter.com/jirosworld) on Twitter for the latest news.
+New LGBTQIA quotes are always very welcome! Please submit them to me here: [@jirosworld](http://twitter.com/jirosworld) on Twitter, for all things queer web development.
 
 ☺  
 ---
