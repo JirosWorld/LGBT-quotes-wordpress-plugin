@@ -9,51 +9,51 @@ Author URI: http://www.jirosworld.com/
 License: GPLv2
 */
 
-function hello_dolly_get_lyric() {
-	/** These are the lyrics to Hello Dolly */
-	$lyrics = "We are all born naked, everything else is drag. -RuPaul
+function rainbow_queery_get_quote() {
+	/** These are the available quotes */
+	$qquotes = "'We are all born naked, everything else is drag.' -RuPaul
 I think no question containing 'either/or' deserves a serious answer, and that includes the question of gender. -Kate Bornstein
-'Is it a boy or a girl ? -'We don’t know; it hasn’t told us yet.'
+'Is it a boy or a girl? -'We don’t know; it hasn’t told us yet.'
 I don't mind straight people as long as they act gay in public.
-What is straight? A line can be straight, or a street, but the human heart, oh, no, it's curved like a road through mountains. -Tennessee Williams
+'What is straight? A line can be straight, or a street, but the human heart, oh, no, it's curved like a road through mountains.' -Tennessee Williams
 If homosexuality is a disease, let's call in queer to work. 'Hello, can't work today, still queer.' -Stephanie Strong
 'Being queer is like being on a lifetime assignment as a secret agent in some foreign country.'' -Noretta Koertge
 'Women who seek to be equal with men lack ambition.' -Marilyn Monroe
 'Be yourself; everyone else is already taken.' -Oscar Wilde
 'You only live once, but if you do it right, once is enough.' -Mae West
 Why do people say 'grow some balls'? Balls are weak and sensitive. If you wanna be tough, grow a vagina. Those things can take a pounding! -Betty White
-Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind. -Dr. Seuss
+'Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind.' -Dr. Seuss
 Dip me in honey and throw me to the lesbians!
-I'd rather be black than gay because when you're black you don't have to tell your mother. -Charles Pierce
+'I'd rather be black than gay because when you're black you don't have to tell your mother.' -Charles Pierce
 'Bisexuality is our best hope of escape from the animosities and false polarities of the current sex wars.' -Camille Paglia
 My mother said to me, 'Why do you have to call yourself a dyke? Why can't you be a nice lesbian?' 'Because I'm not a nice lesbian, I'm a big dyke.' -Lea Delaria
 'Rights are won only by those who make their voices heard.' -Harvey Milk
-If you can't love yourself, how tha hell you gonna love somebody else? -RuPaul";
+'If you can't love yourself, how in tha hell are you gonna love somebody else?' -RuPaul";
 
-	// Here we split it into lines
-	$lyrics = explode( "\n", $lyrics );
+	// Split all into lines
+	$qquotes = explode( "\n", $qquotes );
 
-	// And then randomly choose a line
-	return wptexturize( $lyrics[ mt_rand( 0, count( $lyrics ) - 1 ) ] );
+	// Randomly choose a line
+	return wptexturize( $qquotes[ mt_rand( 0, count( $qquotes ) - 1 ) ] );
 }
 
-// This just echoes the chosen line, we'll position it later
-function hello_dolly() {
-	$chosen = hello_dolly_get_lyric();
-	echo "<p id='dolly'>$chosen</p>";
+// Echoes the chosen line, we'll position it later
+function say_queery() {
+	$chosen = rainbow_queery_get_quote();
+	echo "<p id='LGBTQ'>$chosen</p>";
 }
 
-// Now we set that function up to execute when the admin_notices action is called
-add_action( 'admin_notices', 'hello_dolly' );
+// Set that function up to execute when the admin_notices action is called
+add_action( 'admin_notices', 'say_queery' );
 
-// We need some CSS to position the paragraph
-function dolly_css() {
-	// This makes sure that the positioning is also good for right-to-left languages
+// CSS to position the paragraph
+function lgbtq_css() {
+	// This makes sure that positioning is also good for right-to-left languages
 	$x = is_rtl() ? 'left' : 'right';
 
 	echo "
 	<style type='text/css'>
-	#dolly {
+	#LGBTQ {
 		float: $x;
 		padding: 8px;		
 		margin: 0;
@@ -68,6 +68,6 @@ function dolly_css() {
 	";
 }
 
-add_action( 'admin_head', 'dolly_css' );
+add_action( 'admin_head', 'lgbtq_css' );
 
 ?>
