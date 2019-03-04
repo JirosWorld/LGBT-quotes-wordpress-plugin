@@ -55,17 +55,20 @@ function lgbtq_css() {
 	echo "
 	<style type='text/css'>
 p#LGBTQ>a {
-	color: #000000;
+	display: inline-block;
+	width: 100%;
+	color: white;
 	text-decoration: none;
 }
 #LGBTQ {
 	float: right;
     padding: 10px;
     margin: 0 1em 0 0;
-    max-width: 30%;
     line-height: 1.7;
 	font-size: 12px;
-	background-color: #f3b4f3;
+	font-weight: 600;
+	color: white;
+	background-color: #ff3399;
 	border-radius: 1em;
 	z-index: auto;
 	cursor: pointer;
@@ -94,6 +97,11 @@ p#LGBTQ>a {
 	transform: none;
 	-webkit-transform-origin: 50% 50% 0;
 	transform-origin: 50% 50% 0;
+    width: 30%;
+    -webkit-transition: width 2s ease-in-out;
+    -moz-transition: width 2s ease-in-out;
+    -o-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
 }
 #LGBTQ:hover, #LGBTQ:focus {
 	z-index: auto;
@@ -123,6 +131,7 @@ p#LGBTQ>a {
 	transform: none;
 	-webkit-transform-origin: 50% 50% 0;
 	transform-origin: 50% 50% 0;
+    width: 50%;
 }
 	</style>
 	";
