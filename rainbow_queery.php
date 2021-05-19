@@ -14,7 +14,7 @@ function rainbow_queery_get_quote() {
 	$qquotes = "'We are all born naked, everything else is drag.' -RuPaul
 I think no question containing 'either/or' deserves a serious answer, and that includes the question of gender. -Kate Bornstein
 'Is it a boy or a girl? -'We don’t know; it hasn’t told us yet.'
-I don't mind straight people as long as they act gay in public.
+I don't mind straight people as long as they act gay in public. -Anonymous
 'What is straight? A line can be straight, or a street, but the human heart, oh, no, it's curved like a road through mountains.' -Tennessee Williams
 If homosexuality is a disease, let's call in queer to work. 'Hello, can't work today, still queer.' -Stephanie Strong
 'Being queer is like being on a lifetime assignment as a secret agent in some foreign country.'' -Noretta Koertge
@@ -29,7 +29,8 @@ Dip me in honey and throw me to the lesbians!
 'Bisexuality is our best hope of escape from the animosities and false polarities of the current sex wars.' -Camille Paglia
 My mother said to me, 'Why do you have to call yourself a dyke? Why can't you be a nice lesbian?' 'Because I'm not a nice lesbian, I'm a big dyke.' -Lea Delaria
 'Rights are won only by those who make their voices heard.' -Harvey Milk
-'If you can't love yourself, how in tha hell are you gonna love somebody else?' -RuPaul";
+'Openness may not completely disarm prejudice, but it’s a good place to start.' -Jason Collins
+'If you can't love yourself, how in the hell are you gonna love somebody else?' -RuPaul";
 
 	// Split all into lines
 	$qquotes = explode( "\n", $qquotes );
