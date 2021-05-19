@@ -1,5 +1,7 @@
 <img src="lgbtqia-quotes-logo.png" align="right" height="150" width="150" > 
+
 # LGBTQIA+ quotes Wordpress-plugin
+
 A queer spin-off of the famous Hello Dolly plug-in that displays inspirational quotes for people of all Lesbian/ Gay/ Bisexual/ Transgender/ Queer rainbow diversities. When activated you will randomly see a quote displayed in a pink bubble at the upper right of your admin screen on every page.  
 
 ### Installation
