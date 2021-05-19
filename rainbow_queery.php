@@ -2,8 +2,8 @@
 /*
 Plugin Name: Rainbow Queery
 Plugin URI: https://github.com/jolarti/LGBT-quotes-wordpress-plugin
-Description: A queer plugin spin-off of the Hello Dolly plug-in that displays inspirational, humorous or activist quotes for people of all LGBTQ rainbow diversities at the top of your admin screen.
-Version: 1.1
+Description: A queer spin-off of the Hello Dolly plug-in that displays inspirational, humorous or activist quotes for people of all LGBTQIA rainbow diversities at the top of your Wordpress Dashboard screen.
+Version: 1.2
 Author: Jiro Ghianni
 Author URI: http://www.jirosworld.com/
 License: GPLv2
@@ -17,7 +17,7 @@ I think no question containing 'either/or' deserves a serious answer, and that i
 I don't mind straight people as long as they act gay in public. -Anonymous
 'What is straight? A line can be straight, or a street, but the human heart, oh, no, it's curved like a road through mountains.' -Tennessee Williams
 If homosexuality is a disease, let's call in queer to work. 'Hello, can't work today, still queer.' -Stephanie Strong
-'Being queer is like being on a lifetime assignment as a secret agent in some foreign country.'' -Noretta Koertge
+'Being queer is like being on a lifetime assignment as a secret agent in some foreign country.' -Noretta Koertge
 'Women who seek to be equal with men lack ambition.' -Marilyn Monroe
 'Be yourself; everyone else is already taken.' -Oscar Wilde
 'If you are against gay marriage then just don't marry a gay dude.' -Bianca del Rio
@@ -30,6 +30,12 @@ Dip me in honey and throw me to the lesbians!
 My mother said to me, 'Why do you have to call yourself a dyke? Why can't you be a nice lesbian?' 'Because I'm not a nice lesbian, I'm a big dyke.' -Lea Delaria
 'Rights are won only by those who make their voices heard.' -Harvey Milk
 'Openness may not completely disarm prejudice, but it’s a good place to start.' -Jason Collins
+Gay rights are human rights.
+'What is straight? A line can be staraight, or a street, but the human heart, oh no, it's curved like a road through mountains.' -Tennessee Williams
+'I was like, Am I gay? Am I straight? And I realized...I'm just slutty. Where's my parade?' -Margaret Cho
+'Be very gay. Be the glitter that shows up in unexpected places.' -Dean Atta
+'Some people are disgusted by homosexuals. I’m disgusted by those people' -Mokokoma Mokhonoana
+'Shantay, you stay' -RuPaul
 'If you can't love yourself, how in the hell are you gonna love somebody else?' -RuPaul";
 
 	// Split all into lines

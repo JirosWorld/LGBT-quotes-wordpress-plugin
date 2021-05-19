@@ -1,8 +1,10 @@
 <img src="lgbtqia-quotes-logo.png" align="right" height="150" width="150" > 
 
-# LGBTQIA+ quotes Wordpress-plugin
+# 'Rainbow Queery'
 
-A queer spin-off of the famous Hello Dolly plug-in that displays inspirational quotes for people of all Lesbian/ Gay/ Bisexual/ Transgender/ Queer rainbow diversities. When activated you will randomly see a quote displayed in a pink bubble at the upper right of your admin screen on every page.  
+## The LGBTQIA+ quotes Wordpress-plugin
+
+A queer spin-off of the famous Hello Dolly plug-in that displays inspirational quotes for people of all Lesbian/ Gay/ Bisexual/ Transgender/ Nonbinary/ Queer rainbow diversities. When activated you will randomly see a quote displayed in a pink bubble at the upper right of your Dashboard page. Every time when you reload your brwoser, you will see a new quote. You can hover over the quote with your mouse in order to display it in its full rainbow realness! 
 
 ### Installation
 
@@ -11,7 +13,7 @@ Or upload the unzipped file to the `/wp-content/plugins/rainbow-queery` folder o
 
 ### More?
 
-New LGBTQIA+ quotes are always very welcome! Please submit them to me here: [@jirosworld](http://twitter.com/jirosworld) on Twitter.  
+New LGBTQIA+ quotes are always very welcome! Please submit them to me here: at [@jirosworld](http://twitter.com/jirosworld) on Twitter.  
 My big dream is to make all technology and all databases more diversity-friendly, one plugin at a time!  
 ~ JirosWorld - for all things queer in web development ~
 
